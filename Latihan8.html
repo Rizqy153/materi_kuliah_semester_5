@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan 8</title>
+</head>
+<body>
+    <form method="get">
+        <table border="1">
+            <tr>
+                <td><label for="">Nama Lengkap</label></td>
+            </tr>
+            <tr>
+                <td><input type="text" name="nama" id="nama" placeholder="isi nama lengkap" size="41" maxlength="20" minlength="3" required></td>
+            </tr>
+
+            <tr>
+                <td><label for="email">Email</label></td>
+            </tr>
+            <tr>
+                <td><input type="email" id="email" placeholder="waajidrizqy@gmail.com" size="41" readonly></td>
+            </tr>
+        </table>
+    </form> 
+
+    <form method="get">       
+        <table border="1">
+            <tr>
+                <td><label for="tgl">Tempat, Tanggal Lahir</label></td>
+            </tr>
+            <tr>
+                <td><input type="text" name="tempat" size="40" required></td>
+            </tr>
+            <tr>
+                <td><input type="date" name="tgl" id="tgl"></label></td>
+            </tr>
+            <tr>
+                <td><label for="jk">Jenis Kelamin</label></td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="jkel" id="jk" value="Pria">Pria
+                <input type="radio" name="jkel" id="jk" value="Wanita">Wanita</td>
+            </tr>
+            <tr>
+        </table>
+    </form>
+
+    <form method="get">      
+        <table border="1">
+            <tr>
+                <td><label for="hobi">Hobi</label></td>
+                </tr>
+                    <td><input type="checkbox" name="Hobby" value="Ngoding">Ngoding
+                    <input type="checkbox" name="Hobby2" value="Berenang">Berenang
+                    <input type="checkbox" name="Hobby3" value="Tidur">Tidur
+                    <input type="checkbox" name="Hobby4" value="Main Game">Main Game</td>
+                </tr>
+            </tr>
+        </table>
+    </form>     
+
+    <form method="get">      
+        <table border="1">
+            <tr>
+                <td><label for="foto">Upload Foto</label></td>
+            </tr>
+            <tr>
+                <td><input type="file" name="" id="" accept=".jpeg, .png, .jpg" multiple></td>
+            </tr>
+
+            <tr>
+                <td><label for="tlp"></label>Nomor HP</td>
+            </tr>
+            <tr>
+                <td><input type="tel" name="tlp" id="tlp" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"></td>
+            </tr>
+
+            <tr>
+                <td><button type="submit">Submit</button>
+                <button type="reset">Reset</button></td>
+            </tr>
+        </table>
+    </form>
+
+    <video src="https://www.youtube.com/watch?v=dQw4w9WgXcQ&pp=ygUXbmV2ZXIgZ29ubmEgZ2l2ZSB5b3UgdXA%3D"></video>
+</body>
+</html>
